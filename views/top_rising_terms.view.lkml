@@ -91,6 +91,11 @@ view: top_rising_terms {
     sql: ${percent_gain} ;;
   }
 
+  measure: total_dems {
+    type: sum
+    sql: ${dma_id} ;;
+  }
+
   measure: average_percent_gain {
     type: average
     hidden: yes
